@@ -1,0 +1,205 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  width: 1200px;
+  height: 1319px;
+}
+
+.main {
+  background-color: #1e2939;
+  width: 400px;
+  height: 1319px;
+  margin: 0px 0px 39px 40px;
+}
+.main-conteiner {
+  display: flex;
+}
+
+.foto {
+  max-width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+
+.contacts-conteiner {
+  padding-left: 40px;
+}
+
+.tech-conteiner {
+  padding-left: 40px;
+}
+
+.soft-conteiner {
+  padding-left: 40px;
+}
+.main li {
+  color: #ff6b08;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  text-align: left;
+}
+.main li span {
+  color: #ffffff;
+}
+.main h3 {
+  color: #ffffff;
+}
+.contacts-conteiner span {
+  color: #ffffff;
+  font-weight: 700;
+}
+.contacts-conteiner a {
+  opacity: 0.5;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contacts-conteiner a :hover {
+  text-decoration: underline;
+}
+.about-me-conteiner {
+  width: 1200px;
+  height: auto;
+  margin: 0px 0px 0px 89px;
+}
+
+.about-me-conteiner h1 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 89px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-top: 24px;
+}
+.about-me-conteiner h2 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  margin-top: 108px;
+}
+.about-me-conteiner p {
+  width: 413px;
+  height: auto;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  margin-top: 24px;
+}
+.about-me-conteiner h3 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: auto;
+}
+.about-me-conteiner li {
+  width: 535px;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+}
+.about-me-conteiner span {
+  width: 179px;
+  height: 10px;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.36px;
+  line-height: normal;
+}
+.about-me-conteiner h4 {
+  width: 469px;
+  height: 15px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.48px;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+.about-me-conteiner h4 span {
+  color: #ff6b08;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.project-conteiner a {
+  opacity: 0.5;
+  color: black;
+  text-decoration: none;
+}
+.project-conteiner a:hover {
+  text-decoration: underline;
+}
+
+.tech-conteiner {
+  margin-right: 40px;
+}
+.project-conteiner {
+  margin-top: 64px;
+}
+.work-experience {
+  margin-top: 54px;
+}
+.education h5 {
+  margin-bottom: 14px;
+}

@@ -3,52 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My resume</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--main conteiner-->
-    <div>
-      <aside>
-        <img src="./img/photo.jpg" alt="My photo" />
+    <div class="main-conteiner">
+      <aside class="main">
+        <img class="foto" src="./img/photo.jpg" alt="My photo" />
 
         <!--Contacts-->
-        <div>
+        <div class="contacts-conteiner">
           <h3>Contacts</h3>
-          <div>C: <a href="tel:380688337716">+380688337716</a></div>
           <div>
-            E:
+            <span>C:</span> <a href="tel:380688337716">+380688337716</a>
+          </div>
+          <div>
+            <span>E:</span>
             <a href="mailto:ilya.yurchikk@gmail.com">ilya.yurchikk@gmail.com</a>
           </div>
         </div>
 
         <!--Tech skills cointeiner-->
-        <div>
+        <div class="tech-conteiner">
           <h3>Tech Skills</h3>
           <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>WebPack</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>React.js</li>
+            <li><span>HTML5</span></li>
+            <li><span>CSS3</span></li>
+            <li><span>GIT</span></li>
+            <li><span>WebPack</span></li>
+            <li><span>JavaScript</span></li>
+            <li><span>React.js</span></li>
+            <li><span>Node.js</span></li>
           </ul>
         </div>
 
         <!--Soft Skills-->
-        <div>
+        <div class="soft-conteiner">
           <h3>Soft Skills</h3>
           <ul>
-            <li>Scrum</li>
-            <li>Agile</li>
-            <li>GTD</li>
-            <li>Teamwork</li>
+            <li><span>Scrum</span></li>
+            <li><span>Agile</span></li>
+            <li><span>GTD</span></li>
+            <li><span>Teamwork</span></li>
           </ul>
         </div>
       </aside>
 
       <!--about me conteiner-->
-      <div>
+      <div class="about-me-conteiner">
         <h2>Front-End Developer</h2>
         <h1>Ilya Yurchik</h1>
         <p>
@@ -59,7 +67,7 @@
         </p>
 
         <!--project conteiner-->
-        <div>
+        <div class="project-conteiner">
           <h3>Project</h3>
           <!--about me-->
           <ol>
@@ -88,11 +96,11 @@
         </div>
 
         <!--work experience-->
-        <div>
+        <div class="work-experience">
           <h3>Work Experience</h3>
           <!--company 1-->
           <div>
-            <h4>Front-End Developer Freelance</h4>
+            <h4>Front-End Developer <span>Freelance</span></h4>
             <span>September 2019 - up to now | Ukraine</span>
             <ul>
               <li>
@@ -110,7 +118,7 @@
 
           <!--company 2-->
           <div>
-            <h4>Manager Roga & Kopyta New</h4>
+            <h4>Manager <span>Roga & Kopyta New</span></h4>
             <span>June 2014 - February 2015 | Ukraine</span>
             <ul>
               <li>
@@ -124,7 +132,7 @@
 
           <!--company 3-->
           <div>
-            <h4>Manager Roga & Kopyta LLC</h4>
+            <h4>Manager <span>Roga & Kopyta LLC</span></h4>
             <span>June 2014 - February 2015 | Ukraine</span>
             <ul>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -133,14 +141,13 @@
             </ul>
           </div>
         </div>
-      </div>
-
-      <!--Education-->
-      <div>
-        <h3>Education</h3>
-        <h4>Oles Honchar Dnipro National University</h4>
-        <h5>System Analysis</h5>
-        <span>Septermber 2019 - June 2023 | Ukraine</span>
+        <!--Education-->
+        <div class="education">
+          <h3>Education</h3>
+          <h4><span>Honchar Dnipro National University</span></h4>
+          <h5>System Analysis</h5>
+          <span>Septermber 2019 - June 2023 | Ukraine</span>
+        </div>
       </div>
     </div>
   </body>
